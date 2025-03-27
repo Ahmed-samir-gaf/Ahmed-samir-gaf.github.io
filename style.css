@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#search-input {
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #444;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin: 0;
+}
+
+#current-weather-description {
+    font-size: 1.2em;
+}
+
+#current-weather-temperature {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#current-weather-humidity {
+    font-size: 1em;
+}
+
+#forecast-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#forecast-list li {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+#forecast-list li:last-child {
+    border-bottom: none;
+}
